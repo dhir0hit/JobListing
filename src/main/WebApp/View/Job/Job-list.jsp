@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; ISO-8859-1" pageEncoding="ISO-8859-1" %>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html xmlns:th="https://www/thymeleaf.org">
-<head>
+    <head>
     <meta charset="ISO-8859-1">
     <title>Job Listing</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
 <%--Header--%>
@@ -33,7 +33,14 @@
 <%--Body--%>
 
 
-
+<div class="container">
+    <div class="d-flex flex-row justify-content-center align-items-center">
+        <h2>Job Title</h2>
+        <h5>Company Name</h5>
+        <h6>Location, LO</h6>
+        <h6>[List]</h6>
+    </div>
+</div>
 
 
 
